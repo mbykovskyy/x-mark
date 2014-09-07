@@ -1,0 +1,27 @@
+{
+  "name": "x-mark",
+  "version": "0.0.0",
+  "description": "A static x mark with its origin set to its center.",
+  "homepage": "https://github.com/mbykovskyy/x-mark",
+  "author": "Maksym Bykovskyy",
+  "license": "MIT",
+  "main": "x-mark.html",
+  "keywords": [
+    "x-mark",
+    "web-component",
+    "web-components",
+    "polymer",
+    "x",
+    "cross"
+  ],
+  "ignore": [
+    "**/.*",
+    "tests"
+  ],
+  "dependencies": {
+    "polymer": "Polymer/polymer#~0.4.0"
+  },
+  "devDependencies": {
+    "polymer-test-tools": "Polymer/polymer-test-tools#~0.4.0"
+  }
+}

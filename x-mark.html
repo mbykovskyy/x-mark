@@ -1,0 +1,27 @@
+<link rel="import" href="../polymer/polymer.html">
+
+<!--
+A static x mark with its origin set to its center.
+
+Example:
+
+    <div id="map">
+        <x-mark></x-mark>
+    </div>
+
+@element x-mark
+@blurb A static x mark with its origin set to its center
+@homepage http://mbykovskyy.github.io/x-mark
+@demo http://mbykovskyy.github.io/x-mark/demo.html
+-->
+<polymer-element name="x-mark" noscript>
+  <template>
+    <style>
+      :host {
+        display: inline-block;
+        margin: -8px;
+      }
+    </style>
+    <img src="http://mt.googleapis.com/vt/icon/name=icons/spotlight/directions_drag_cross_67_16.png&scale=4"/>
+  </template>
+</polymer-element>

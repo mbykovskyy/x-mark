@@ -1,0 +1,23 @@
+<!doctype html>
+<html>
+<head>
+  <meta name="viewport" content="width=device-width, minimum-scale=1.0, initial-scale=1.0, user-scalable=yes">
+  <title>Should Display Correct Image</title>
+  <script src="../../platform/platform.js"></script>
+  <link rel="import" href="../../polymer-test-tools/tools.html">
+  <script src="../../polymer-test-tools/htmltest.js"></script>
+  <link rel="import" href="../x-mark.html">
+</head>
+<body>
+  <x-mark></x-mark>
+
+  <script>
+    document.addEventListener('polymer-ready', function() {
+      var x = document.querySelector('x-mark');
+      var img = x.shadowRoot.querySelector('img');
+      assert.equal(img.src, 'http://mt.googleapis.com/vt/icon/name=icons/spotlight/directions_drag_cross_67_16.png&scale=4');
+      done();
+    });
+  </script>
+</body>
+</html>
