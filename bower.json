@@ -1,0 +1,7 @@
+{
+  "name": "x-mark#gh-pages",
+  "private": true,
+  "dependencies": {
+    "x-mark": "mbykovskyy/x-mark#master"
+  }
+}
